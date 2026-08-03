@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <!-- Menentukan karakter yang digunakan oleh halaman -->
+    <meta charset="UTF-8">
+
+    <!-- Judul yang tampil pada tab browser -->
+    <title>Belajar HTML Dasar</title>
+
+    <!-- CSS / Style untuk mengatur tampilan halaman -->
+    <style>
+        /* Mengatur tampilan seluruh halaman */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        /* Mengatur warna heading */
+        h1 {
+            color: darkblue;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        /* Mengatur tampilan tabel */
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Memberikan warna pada header tabel */
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- HEADING / JUDUL -->
+    <!-- ============================= -->
+
+    <!-- Heading terbesar adalah h1 -->
+    <h1>Belajar HTML Dasar</h1>
+
+    <!-- Heading lainnya dari h2 sampai h6 -->
+    <h2>Materi HTML</h2>
+    <h3>Dasar-Dasar HTML</h3>
+
+
+    <!-- ============================= -->
+    <!-- PARAGRAF -->
+    <!-- ============================= -->
+
+    <!-- Tag <p> digunakan untuk membuat paragraf -->
+    <p>
+        HTML adalah bahasa markup yang digunakan untuk membuat
+        struktur sebuah halaman web.
+    </p>
+
+    <p>
+        Dengan HTML, kita dapat membuat judul, paragraf,
+        link, gambar, tabel, dan berbagai elemen lainnya.
+    </p>
+
+
+    <!-- ============================= -->
+    <!-- TEXT FORMATTING -->
+    <!-- ============================= -->
+
+    <h2>Text Formatting</h2>
+
+    <!-- <b> membuat teks menjadi tebal -->
+    <p><b>Teks Tebal</b></p>
+
+    <!-- <strong> menunjukkan teks yang penting -->
+    <p><strong>Teks Penting</strong></p>
+
+    <!-- <i> membuat teks menjadi miring -->
+    <p><i>Teks Miring</i></p>
+
+    <!-- <em> memberikan penekanan pada teks -->
+    <p><em>Teks dengan Penekanan</em></p>
+
+    <!-- <u> memberikan garis bawah pada teks -->
+    <p><u>Teks Bergaris Bawah</u></p>
+
+    <!-- <mark> memberikan efek highlight -->
+    <p><mark>Teks Highlight</mark></p>
+
+    <!-- <small> membuat teks lebih kecil -->
+    <p><small>Teks Berukuran Kecil</small></p>
+
+    <!-- <del> mencoret teks -->
+    <p><del>Teks Dicoret</del></p>
+
+    <!-- <ins> menandai teks yang ditambahkan -->
+    <p><ins>Teks Ditambahkan</ins></p>
+
+    <!-- <sub> membuat teks menjadi subscript -->
+    <p>H<sub>2</sub>O</p>
+
+    <!-- <sup> membuat teks menjadi superscript -->
+    <p>2<sup>3</sup> = 8</p>
+
+
+    <!-- ============================= -->
+    <!-- LINK -->
+    <!-- ============================= -->
+
+    <h2>Link</h2>
+
+    <!--
+        <a> digunakan untuk membuat hyperlink.
+        href berisi alamat tujuan link.
+    -->
+    <p>
+        Kunjungi
+        <a href="https://www.google.com">
+            Google
+        </a>
+    </p>
+
+    <!--
+        target="_blank" digunakan untuk membuka link
+        pada tab browser baru.
+    -->
+    <p>
+        Kunjungi
+        <a href="https://www.w3schools.com" target="_blank">
+            W3Schools
+        </a>
+    </p>
+
+
+    <!-- ============================= -->
+    <!-- IMAGE / GAMBAR -->
+    <!-- ============================= -->
+
+    <h2>Image</h2>
+
+    <!--
+        <img> digunakan untuk menampilkan gambar.
+        src    = lokasi/alamat gambar
+        alt    = teks alternatif jika gambar gagal ditampilkan
+        width  = lebar gambar
+    -->
+    <img
+        src="https://www.w3schools.com/html/img_girl.jpg"
+        alt="Contoh gambar"
+        width="200"
+    >
+
+
+    <!-- ============================= -->
+    <!-- TABLE / TABEL -->
+    <!-- ============================= -->
+
+    <h2>Data Siswa</h2>
+
+    <!-- <table> digunakan untuk membuat tabel -->
+    <table>
+
+        <!-- Baris pertama sebagai header tabel -->
+        <tr>
+            <!-- <th> digunakan untuk membuat judul kolom -->
+            <th>No</th>
+            <th>Nama</th>
+            <th>Jurusan</th>
+            <th>Nilai</th>
+        </tr>
+
+        <!-- Baris data siswa pertama -->
+        <tr>
+            <!-- <td> digunakan untuk membuat isi tabel -->
+            <td>1</td>
+            <td>Andi</td>
+            <td>PPLG</td>
+            <td>90</td>
+        </tr>
+
+        <!-- Baris data siswa kedua -->
+        <tr>
+            <td>2</td>
+            <td>Siti</td>
+            <td>PPLG</td>
+            <td>85</td>
+        </tr>
+
+        <!-- Baris data siswa ketiga -->
+        <tr>
+            <td>3</td>
+            <td>Budi</td>
+            <td>PPLG</td>
+            <td>88</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
