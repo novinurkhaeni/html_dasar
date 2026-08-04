@@ -1,0 +1,24 @@
+1. Buatlah sebuah halaman web sederhana menggunakan HTML dan CSS internal dengan tema: "Profil Siswa PPLG"
+2. Program wajib memiliki:
+    a) Title, dengan judul: Profil Siswa PPLG.
+    b) Heading: gunakan <h1> untuk judul utama. Gunakan minimal 2 heading lainnya, misalnya <h2> atau <h3>.
+    c) Paragraf <p>: Buat minimal 2 paragraf yang menjelaskan profil atau deskripsi diri.
+    d) Style: Gunakan <style> di dalam <head>. Atur minimal: warna background, jenis font, warna heading, ukuran teks.
+    e) Teks formating, gunakan minimal 5 tag formatting, misalnya:
+        <b>
+        <strong>
+        <i>
+        <u>
+        <mark>
+        <small>
+        <del>
+        <ins>
+        <sub>
+        <sup>
+    f) Link: Buat minimal 2 link. Ketika klik link akan dibuka di tab baru.
+    g) Image: Tampilkan minimal 1 gambar. Gunakan attribute src, alt, width, height.
+    h) Table: Buat tabel data siswa dengan minimal 3 kolom. Gunakan <table>, <tr>, <th>, <td>
+    i) Tambahkan warna background pada table, border table
+3. Berikan komentar pada setiap bagian utama kode.
+4. Pastikan halaman dapat dibuka dengan baik melalui browser.
+5. Kumpulkan file html di: https://forms.gle/b8aRHqqZXcJFGEh3A
